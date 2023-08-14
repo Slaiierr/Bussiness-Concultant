@@ -3,7 +3,7 @@
   padding: 0px;
   list-style: none;
   text-decoration: none;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Helvetica-bold", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -14,7 +14,7 @@ h4,
 h5,
 h6,
 button {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Helvetica-bold", sans-serif;
 }
 
 body {
@@ -32,9 +32,9 @@ body {
 
 .sec1 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
-  height: 165px;
+  height: 150px;
 }
 
 .sec1 header nav ul {
@@ -44,11 +44,16 @@ body {
 
 .sec1 header nav ul li {
   margin: auto 50px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .sec1 header nav ul li a {
   color: rgb(128, 128, 128);
+  font-weight: 500;
+}
+
+.sec1 header nav ul li a:hover {
+  color: white;
 }
 
 #get-start {
@@ -58,10 +63,95 @@ body {
   background-color: #b8e900;
   border-radius: 10px;
   font-size: 1.9rem;
-  font-weight: 500;
+  font-weight: 400;
   border: none;
 }
 
-.selected {
-  color: white;
+/* AIDE AU CENTRAGE DE LA NAVBAR */
+/* A CHANGER DES QUE POSSIBLE */
+.vide2 {
+  width: 25px;
+}
+
+.vide {
+  width: 100%;
+  height: 80px;
+}
+
+/* CONTAINER 1 */
+.sec1 .container1 h1 {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 7rem;
+}
+
+/* CONTAINER 2 */
+.sec1 .container2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 70px 0;
+}
+
+.sec1 .container2 .container-lateral {
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: #1c1c1c;
+  margin: auto;
+}
+
+.sec1 .container2 .container-mid {
+  width: 700px;
+  height: 440px;
+  border-radius: 30px;
+  background-color: #1c1c1c;
+  margin: 0 -40px;
+  margin-top: 60px;
+}
+
+.title {
+  padding: 30px;
+}
+
+.top-title {
+  color: #b8e900;
+  font-size: 3.2rem;
+}
+
+.separateur {
+  width: 380px;
+  height: 1px;
+  background-color: #454545;
+  border-radius: 50px;
+  opacity: 0.5;
+  margin: 30px 0;
+}
+
+.text {
+  color: #f0f0f0;
+  font-size: 1.5rem;
+  opacity: 0.5;
+  letter-spacing: 0.2px;
+}
+
+#image-mid {
+  width: 650px;
+  height: 250px;
+  border-radius: 30px;
+  margin-left: 25px;
+  margin-top: -15px;
+}
+
+#image-right {
+  width: 440px;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+
+/* SECTION 2 */
+.sec2 {
+  width: 100%;
+  height: 100vh;
 }
